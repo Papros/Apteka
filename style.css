@@ -241,3 +241,21 @@ button{
     width: 80%;
     font-size: 1.2em;
 }
+
+.main_container{
+    width: 100%;
+    margin-top: 2%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.side_menu{
+    margin-left: 1%;
+    flex: 1;
+    background-color: #462C02;
+}
+
+.item_container{
+    flex:4;
+}

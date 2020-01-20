@@ -1,12 +1,10 @@
 <?php
 
-include_once("DataBase/other/base_util.php");
+include_once("DataBase/base_util.php");
 
 if( (isset($_SESSION["log"])) && ($_SESSION["log"] == true)  ){
-    redirect("news.php");
+   redirect("news.php");
 }
-
-
 
 ?>
 
@@ -47,7 +45,7 @@ if( (isset($_SESSION["log"])) && ($_SESSION["log"] == true)  ){
 
             <div id="login-form-container" class="nodisplay">
 
-                <form id="login-form" action="DataBase/other/loginGate.php" method="POST" >
+                <form id="login-form" action="DataBase/loginGate.php" method="POST" >
                     <label>
                         <input type="text" name="login" placeholder="Login">
                     </label>

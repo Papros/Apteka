@@ -1,6 +1,6 @@
 <?php
 
-include_once("../other/base_util.php");
+include_once("base_util.php");
 
 
     session_start();

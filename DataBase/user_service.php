@@ -1,9 +1,9 @@
 <?php
 
-
-include_once("../crud/userCrud.php");
-include_once("../model/user.php");
-include_once("../other/base_util.php");
+include_once("connection_menager.php");
+include_once("userCrud.php");
+include_once("user.php");
+include_once("base_util.php");
 
 function check_login($login, $password)
 {

@@ -1,8 +1,8 @@
 <?php
 
-include_once("../model/order.php");
-include_once("../crud/crud.php");
-include_once("../other/connection_menager.php");
+include_once("order.php");
+include_once("crud.php");
+include_once("connection_menager.php");
 
 class orderCrud implements myCRUD
 {

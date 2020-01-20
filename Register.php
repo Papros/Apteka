@@ -1,7 +1,7 @@
 <?php
 
-include_once("DataBase/service/user_service.php");
-include_once("DataBase/other/base_util.php");
+include_once("DataBase/user_service.php");
+include_once("DataBase/base_util.php");
 
 
 ?>
@@ -44,7 +44,7 @@ include_once("DataBase/other/base_util.php");
 
         <div id="login-form-container" class="nodisplay">
 
-                <form id='login-form' action='DataBase/other/loginGate.php' method='POST' >
+                <form id='login-form' action='DataBase/loginGate.php' method='POST' >
                     <label>
                         <input type='text' name='login' placeholder='Login'>
                     </label>
@@ -66,7 +66,7 @@ include_once("DataBase/other/base_util.php");
     </div>
 
 
-    <form id="register_form" action="DataBase/other/registerGate.php" method="POST" autocomplete="on">
+    <form id="register_form" action="DataBase/registerGate.php" method="POST" autocomplete="on">
 
         <div class="label">
             <div class="name_tag">Imię</div>

@@ -1,7 +1,7 @@
 <?php
 
-include_once("DataBase/service/user_service.php");
-include_once("DataBase/other/base_util.php");
+include_once("DataBase/user_service.php");
+include_once("DataBase/base_util.php");
 
 
 session_start();
@@ -47,6 +47,7 @@ $user = get_user_by_login($login);
             <div class="menu-item">  <a href="#"> KATALOG</a>  </div>
             <div class="menu-item">  <a href="#"> NOWOŚCI</a>  </div>
             <div class="menu-item">  <a href="#"> PROMOCJE</a>  </div>
+            <div class="menu-item">  <a href="#"> KOSZYK</a>  </div>
             <div class="menu-item" id="login-option">  <a> <?php print($user->get_login()) ?>  </a> </div>
 
         </div>
@@ -58,7 +59,7 @@ $user = get_user_by_login($login);
                 <a href="#"> ZAMOWIENIA </a>
                 <a href="#"> ULUBIONE </a>
                 <a href="#"> REKLAMACJE </a>
-                <a href="DataBase/other/logoutGate.php"> WYLOGUJ </a>
+                <a href="DataBase/logoutGate.php"> WYLOGUJ </a>
 
             </div>
 

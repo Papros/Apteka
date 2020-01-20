@@ -1,8 +1,8 @@
 <?php
 
-include_once("../model/user.php");
-include_once("../crud/crud.php");
-include_once("../other/connection_menager.php");
+include("user.php");
+include_once("crud.php");
+include_once("connection_menager.php");
 
 class userCrud implements myCRUD
 {

@@ -1,7 +1,7 @@
 <?php
 
-include_once("../service/user_service.php");
-include_once("../other/base_util.php");
+include_once("user_service.php");
+include_once("base_util.php");
 
 if ($_POST["password"] != $_POST["confirm_password"]) {
     redirect("edit_data.php?id=" . $_POST["id"] . "&error=password_not_confirmed");

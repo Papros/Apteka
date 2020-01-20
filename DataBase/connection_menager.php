@@ -5,7 +5,7 @@ function open_connection()
     $SQL_DATABASE_HOST = "localhost";
     $SQL_DATABASE_USER = "aptekauser";
     $SQL_DATABASE_PASSWORD = "pass";
-    $SQL_DATABASE_NAME = "aptekapo";
+    $SQL_DATABASE_NAME = "apteka";
     $EXCEPTION_CONNECTION_FAILED = "Connection failed: ";
 
     $connection = mysqli_connect($SQL_DATABASE_HOST, $SQL_DATABASE_USER, $SQL_DATABASE_PASSWORD, $SQL_DATABASE_NAME);

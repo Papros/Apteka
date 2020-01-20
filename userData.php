@@ -1,7 +1,7 @@
 <?php
 
-include_once("DataBase/service/user_service.php");
-include_once("DataBase/other/base_util.php");
+include_once("DataBase/user_service.php");
+include_once("DataBase/base_util.php");
 
 
 
@@ -51,6 +51,7 @@ $user = get_user_by_login($login);
             <div class="menu-item">  <a href="#"> KATALOG</a>  </div>
             <div class="menu-item">  <a href="news.php"> NOWOŚCI</a>  </div>
             <div class="menu-item">  <a href="#"> PROMOCJE</a>  </div>
+            <div class="menu-item">  <a href="#"> KOSZYK</a>  </div>
             <div class="menu-item" id="login-option">  <a> <?php print($user->get_login()) ?>  </a> </div>
 
         </div>
@@ -77,7 +78,7 @@ $user = get_user_by_login($login);
     </div>
 
 
-    <form id="register_form" action="DataBase/other/updateData.php" method="POST" autocomplete="on">
+    <form id="register_form" action="DataBase/updateData.php" method="POST" autocomplete="on">
 
         <div class="label">
             <div class="name_tag">Imię</div>
